@@ -1,6 +1,6 @@
-========================================================================
+
 RESEARCH DESK — AUTONOMOUS RESEARCH AGENT & MULTI-WINDOW TUI
-========================================================================
+
 
 Research Desk is a modular, multi-turn AI research assistant built from 
 scratch using Python, the OpenRouter API, and the Textual framework. 
@@ -66,12 +66,9 @@ SETUP INSTRUCTIONS
 Create a file named exactly .env in the root of your project directory 
 and add your secret API access credentials:
 
-OPENROUTER_API_KEY=your_openrouter_api_key_here
-SERPER_API_KEY=your_google_serper_api_key_here
-WORKSPACE_ROOT=.
-
-(Note: Make sure your .env file is safely appended inside your .gitignore 
-rules to prevent accidentally leaking credentials to public repositories.)
+OPENROUTER_API_KEY=your_openrouter_api_key_here \n
+SERPER_API_KEY=your_google_serper_api_key_here \n
+WORKSPACE_ROOT=. \n
 
 2. Install Project Dependencies
 Run the following command in your terminal to ensure proper path mapping:
@@ -90,4 +87,4 @@ USAGE COMMANDS
 
 * Passing One-Shot Terminal Arguments:
   py agent.py "Please use your tool to open AGENT.md and summarize it."
-========================================================================
+
